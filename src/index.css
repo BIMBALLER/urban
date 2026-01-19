@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --onels-orange: #ffa500;
+  --onels-dark: #111111;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-onels-dark overflow-x-hidden;
+  }
+}
+
+/* WhatsApp Floating Animation */
+.whatsapp-float {
+  @apply fixed bottom-6 right-6 w-16 h-16 bg-[#25D366] text-white rounded-full flex items-center justify-center text-3xl shadow-2xl z-[5000] transition-transform hover:scale-110;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Custom Background Utilities */
+.bg-onels-orange { background-color: var(--onels-orange); }
+.text-onels-orange { color: var(--onels-orange); }
+.bg-onels-dark { background-color: var(--onels-dark); }
+.border-onels-orange { border-color: var(--onels-orange); }
