@@ -51,6 +51,7 @@ const Navbar = () => {
           <li><Link to="/" className="font-bold hover:text-white transition-colors" onClick={() => setIsOpen(false)}>Home</Link></li>
           <li><Link to="/about" className="font-bold hover:text-white transition-colors" onClick={() => setIsOpen(false)}>About</Link></li>
           <li><Link to="/services" className="font-bold hover:text-white transition-colors" onClick={() => setIsOpen(false)}>Services</Link></li>
+          <li><Link to="/contact" className="font-bold hover:text-white transition-colors" onClick={() => setIsOpen(false)}>Contact</Link></li>
           <li><Link to="/tracking" className="font-bold hover:text-white transition-colors" onClick={() => setIsOpen(false)}>Tracking</Link></li>
           <li>
             <Link to="/dashboard" className={`px-6 py-2 rounded-full font-bold transition-all ${scrolled ? 'bg-onels-orange text-white' : 'bg-onels-dark text-white'}`} onClick={() => setIsOpen(false)}>
