@@ -47,7 +47,7 @@ const Contact = () => {
             {/* Classic Telephone Image - Permanent Overlay */}
             <div className="rounded-[2.5rem] overflow-hidden shadow-[0_25px_60px_-15px_rgba(0,0,0,0.3)] h-80 relative border-4 border-onels-orange/10 group">
               <img 
-                src="https://images.unsplash.com/photo-1520923642038-b4259ace9789?auto=format&fit=crop&q=80" 
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDHi1e-f-Idk0cVu-YsAI5zJrB8x9ZZGv6JA&s" 
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" 
                 alt="" 
               />
